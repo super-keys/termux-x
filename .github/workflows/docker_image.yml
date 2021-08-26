@@ -26,7 +26,7 @@ jobs:
     - name: Push to hub.docker.com
       env:
         DOCKER_LOGIN: "0x001"
-        DOCKER_PASS: "oujie***123"
+        DOCKER_PASS: "pwd"
       run: |
-        docker login --username "0x001" --password "oujie***123"
+        docker login --username "0x001" --password "pwd"
         docker push xermux/package-builder:latest
