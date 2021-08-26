@@ -21,6 +21,6 @@ jobs:
         GIT_COMMIT_PACKAGES: "true"
         GIT_PUSH_PACKAGES: "true"
       run: |
-        git config --global user.name "Termux Github Actions"
-        git config --global user.email "contact@termux.com"
+        git config --global user.name "super-keys"
+        git config --global user.email "oujie@qq.com"
         bash ./scripts/updates/check-updates.sh

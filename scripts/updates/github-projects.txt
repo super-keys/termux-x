@@ -294,7 +294,7 @@ silicon|Aloxaf/silicon
 sl|mtoyoda/sl
 sleuthkit|sleuthkit/sleuthkit|\d+\.\d+\.\d+
 slides|maaslalani/slides
-solidity|ethereum/solidity
+
 sslscan|rbsec/sslscan
 stag|seenaburns/stag
 starship|starship/starship
