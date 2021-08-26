@@ -6,9 +6,6 @@ on:
     - master
     paths:
     - 'packages/**'
-  pull_request:
-    paths:
-    - 'packages/**'
 
 jobs:
   build:
