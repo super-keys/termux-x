@@ -13,10 +13,10 @@ jobs:
       uses: actions/checkout@v2
       with:
         fetch-depth: 0
-        token: ${{ secrets.GH_API_KEY }}
+        token: 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
     - name: Process package updates
       env:
-        GITHUB_API_TOKEN: ${{ secrets.GH_API_KEY }}
+        GITHUB_API_TOKEN: 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
         BUILD_PACKAGES: "true"
         GIT_COMMIT_PACKAGES: "true"
         GIT_PUSH_PACKAGES: "true"
