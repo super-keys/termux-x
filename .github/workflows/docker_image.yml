@@ -29,4 +29,4 @@ jobs:
         DOCKER_PASS: "oujie***123"
       run: |
         docker login --username "0x001" --password "oujie***123"
-        docker push termux/packageBuilder:latest
+        docker push termux/packagebuilder:latest
