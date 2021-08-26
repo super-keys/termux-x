@@ -22,7 +22,7 @@ jobs:
     - name: Build
       run: |
         cd ./scripts
-        docker build --tag termux/package-builder:latest .
+        docker build --tag termux/packageBuilder:latest .
     - name: Push to hub.docker.com
       env:
         DOCKER_LOGIN: "0x001"
