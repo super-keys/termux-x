@@ -143,6 +143,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
       with: 
         upload_url: 'https://github.com/super-keys/termux/releases' 
-        asset_path: '${{ github.workspace }}/termux-x/build/bin/termux-x' 
-        asset_name: 'termux-x' 
         asset_content_type: application/octet-stream 
