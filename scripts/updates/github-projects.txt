@@ -338,5 +338,4 @@ xxhash|Cyan4973/xxHash
 youtubedr|kkdai/youtube
 z3|Z3Prover/z3|\d+\.\d+\.\d+
 zbar|mchehab/zbar
-zoxide|ajeetdsouza/zoxide
 zstd|facebook/zstd
