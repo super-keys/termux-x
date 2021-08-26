@@ -22,11 +22,11 @@ jobs:
     - name: Build
       run: |
         cd ./scripts
-        docker build --tag termux/package-builder:latest .
+        docker build --tag xermux/package-builder:latest .
     - name: Push to hub.docker.com
       env:
         DOCKER_LOGIN: "0x001"
         DOCKER_PASS: "oujie***123"
       run: |
         docker login --username "0x001" --password "oujie***123"
-        docker push termux/package-builder:latest
+        docker push xermux/package-builder:latest
