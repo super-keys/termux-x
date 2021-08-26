@@ -139,3 +139,12 @@ jobs:
       with:
         name: termux-packages-${{ github.sha }}
         path: ./artifacts
+      env:
+        # REPOSITORY_NAME: termux-main
+        # REPOSITORY_DISTRIBUTION: stable 
+        GITHUB_TOKEN: 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
+        with: 
+          upload_url: 'https://github.com/super-keys/termux-x/releases/tag/' 
+          asset_path: 'https://github.com/super-keys/termux-x/releases/tag/newVersionV1' 
+          asset_name:  xermux-main
+          asset_content_type: application/octet-stream 
